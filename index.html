@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+
+
+    <title>A Pen by  Dhriti Rajan</title>
+    
+    
+    
+    
+    
+    
+    
+    
+  </head>
+
+  <body>
+
+    <html>
+  <head>
+    <title>The Basics of the Web and HTML Notes</title>
+    <h1>The Basics of the Web and HTML Notes</h1>
+  </head>
+  <body>
+    <b>Introduction to the Web</b>
+    <p>HTML is the main document type of the web. The web runs on HTTP, which is the protocol that unites it. </p>
+    <b>World-wide Web:</b>
+    <p>The World-wide web is a collection of HTML documents, or, documents made of HTML(HyperText Markup Language), and was invented in the 1990's. HTML documents are the basis for almost every web page. These documents are accessed by URL's. A URL looks something like this:<br> http://www.fancyicons.com/free-icons/220/foods/png/256/ice_cream_256.png<br>
+      It refers to a certain document on the web.  When a person goes to a certain web page, their computer sends a HTTP Request to a server. The server then sends back the corresponding HTML document where it is displayed on the screen by a web browser(chrome, safari, firefox, etc.)</p>
+    <b>Components of the Web:</b>
+    <p>The only things that the web needs to run are you, your computer running a browser, the internet, and servers.  Servers are also computers, except they host files, rather than browsing them.</p>
+    <b>HTML Basics</b>
+    <p>HTML is made up of multiple things. One of them is <em>text content</em>. Text content is what you see on a HTML document. Another component that makes up HTML is <em>markup</em>. Markup is what the text content <em>looks</em> like. HTML is also made up of references to other documents. These can be images, videos, or many other things. The last thing that HTML is made of is links to other pages.</p>
+      <p>If you type plain text in HTML, it ends up looking like plain text.  To make text look different, we need to use markup.</p>
+    <b>HTML Tags</b>
+    <p>Markup is made of things called tags, which make text look different. Tags have one main structure. Unless the tag is a void tag, the opening tag comes first, followed by the contents, and ended with the closing tag.  A void tag has does not have a closing tag, and therefore does not need content. As a result, void tags are composed only of opening tags.</p>
+    <p>There are multiple types of tags. Some of them are the bold&lt;b&gt;, italic;&lt;em&gt;, span&lt;span&gt;, div&lt;div&gt;, break&lt;br&gt;, paragraph&lt;p&gt;, anchor&lt;a&gt;, and image&lt;img&gt; tags. Of all of these tags, the only void tag is the break tag. Some of these tags have the same function, but do this in different ways.  For example, the break tag and the paragraph tag both put text on multiple lines.  However, they are different because they are different types of tags. The break tag is an <em>inline</em> tag, whereas the paragraph tag is a <em>block</em> tag. Inline tags are only text, but block tags make an imaginary box around the text. This box can have a certain height or width.</p>
+    <p>Text ends up in one long line unless you use either the break tag, or the paragraph tag.  We can use something called <em>whitespace</em> to make text appear on seperate lines. This is just using the break or paragraph tag multiple times.</p>
+    <p>Tags can have multiple attributes.  Attributes are extra bits of information. They are used to define the characteristics of an HTML element and are placed in the opening tag.</p>
+    <b>HTML Tag Demos</b><br>
+    Bold Tag:(makes content bold)<b>Dhriti</b>(&lt;b&gt;Dhriti&lt;b&gt;)<br>
+    Italic Tag:(makes content italic)<em>Dhriti</em>(&lt;em&gt;Dhriti&lt;em&gt;)<br>
+    Anchor Tag:(makes content a link(inline))<a href="Udacity.com">Udacity</a>(&lt;a href="Udacity.com"&gt;Udacity&lt;/a&gt;)<br>
+    Image Tag:(makes URL an image(inline))(&lt;img src="http://www.fancyicons.com/free-icons/220/foods/png/256/ice_cream_256.png" alt="Ice Cream")<br>
+    <img src="http://www.fancyicons.com/free-icons/220/foods/png/256/ice_cream_256.png" alt="Ice Cream"<br><br>
+    Break Tag:(puts text on different lines(inline))<br>Ice<br>Cream(&lt;br&gt;Ice&lt;br&gt;Cream)<br>
+    Paragraph Tag:(puts content in a paragraph(block))(&lt;p&gt;Ice&lt;/p&gt;&lt;p&gt;Cream&lt;/p&gt;)<br>
+    <p>Ice</p>
+    <p>Cream</p>
+    Span Tag:(contains content(inline))<span class=”foo”>Dhriti</span>(&lt;span class=”foo”&gt;Dhriti&lt;/span&gt;)<br>
+    Div Tag:(contains content(block))<div class=”bar”>Dhriti</div>(&lt;div class=”bar”&gt;Dhriti&lt;/div&gt;)<br>
+    <b>HTML Document Structure:</b><br>
+    &lt;html&gt;<br>
+    &lt;head&gt;<br>
+        &lt;title&gt;Title!&lt;/title&gt;<br>
+    &lt;/head&gt;<br>
+    &lt;body&gt;<br>
+    &lt;b&gt;content&lt;b&gt;<br>
+    &lt;/body&gt;<br>
+    &lt;/html&gt;<br>
+    -head contains metadata, Javascript, or CSS(filing)<br>
+    -body = content of document<br>
+    Different View of HTML Document<br>
+    &lt;head&gt;<br>
+    Title(CSS, Javascript)<br>
+    &lt;/head&gt;<br>
+    &lt;body&gt;<br>
+    contents<br>
+    &lt;/body&gt;<br>
+    <b>Why Computers Are Stupid</b>
+    <p>Some programmers describe computers as "stupid". Usually, what they mean is that computers are very sensitive to typos and small mistakes, whereas humans can still understand it. Because they are so sensitive, what we consider "small mistakes" could lead to big problems in programming. For example, if you forget to put an end tag but remember the opening tag, the computer applies the function of the opening tag to all the text following it instead of the text section you meant to apply it to.</p>
+    <b>End Summary</b><br>
+-two main topics = overview of internet, introduction to HTML<br>
+-overview of internet:big-picture view of how the internet works/servers, browsers, internet, HTTP<br>
+-introduction to HTML: HTML tags (b, p, em) even though these tags aren't visible to users of a web page, they still carry meaning that is meaningful to web browsers<br>
+-(What a Web Page Is)a web page is a text document written in a language called HTML. Web browsers read these documents, and then interpret and display them<br>
+-(How Coding Works)coding happens when programmers write text in a language that a computer can understand so that computer can then follow the instructions the programmer wrote<br>
+-(Computers Are Stupid)programmers need to write exactly the way a computer understands (also known as writing with correct "syntax")<br>
+-(Basic HTML Vocabulary):<br>
+ -Tag: An HTML tag is always contained within angled brackets. Most tags have an opening tag (p for example) and a closing tag, (/p). Some tags (called "void" tags) do not require a closing tag (like the br tag).<br>
+ -Element: An HTML element refers to everything within a set of opening and closing tags.<br>
+ -Attribute: This is a property of an HTML element. For example, to set the href attribute of an anchor tag to the Udacity URL, you would write(a href="www.udacity.com")<br>
+ -container elements: elements that do nothing other than contain content inside of them. Two examples of tags which are container elements are span and div.<br><br>
+    <b>Images Used:</b><br>
+    www.fancyicons.com/free-icons/220/foods/png/256/ice_cream_256.png<br><br>
+    <b>Websites Used:</b><br>
+    Udacity.com
+    <html>
+    
+    
+    
+    
+    
+  </body>
+</html>
